@@ -1,0 +1,24 @@
+{
+    "user": "igor-2012-killer",
+    "repo": "samp-plugin-totp",
+    "include_path": "include",
+    "resources": [
+        {
+            "name": "^samp-plugin-totp-linux-x86.zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["samp-plugin-totp-linux-x86"],
+            "plugins": ["samp-plugin-totp-linux-x86/totp.so"]
+        },
+        {
+            "name": "^samp-plugin-totp-win-x86.zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["samp-plugin-totp-win-x86"],
+            "plugins": ["samp-plugin-totp-win-x86/totp.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["igor-2012-killer/samp-plugin-totp"]
+    }
+}
