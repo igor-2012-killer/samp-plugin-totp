@@ -8,14 +8,14 @@
             "platform": "linux",
             "archive": true,
             "includes": ["include"],
-            "plugins": ["samp-plugin-totp-linux-x86/totp.so"]
+            "plugins": ["totp.so"]
         },
         {
             "name": "^samp-plugin-totp-win-x86.zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["include"],
-            "plugins": ["samp-plugin-totp-win-x86/totp.dll"]
+            "plugins": ["totp.dll"]
         }
     ],
     "runtime": {
